@@ -1,0 +1,30 @@
+.projects {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.projectBox {
+    width: 60%;
+    height: auto;
+    background-color: blue;
+    margin: 20px 0px;
+    text-align:center;
+    line-height:80px;
+    cursor:pointer;
+    position:relative;
+}
+
+.projectInfo{
+    display:none;
+    width: 50%;
+    min-height:100px;
+    height:auto;
+    background-color:brown;
+    position:relative;
+}
+
+.show{
+    display:flex;
+}

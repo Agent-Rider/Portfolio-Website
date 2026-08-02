@@ -6,6 +6,7 @@
     </title>
     <link rel="stylesheet" href="CSS files/reset.css" />
     <link rel="stylesheet" href="CSS files/main.css" />
+    <link rel="stylesheet" href="CSS files/programs.css" />
 </head>
 
 <body>
@@ -44,6 +45,22 @@
         These are some of the programming projects that I have worked on.
     </h2>
 
+    <section class="projects">
+        <button class="projectBox" onclick="drop('project1')">
+            Project 1
+        </button>
+        <button class="projectBox" onclick="drop('project2')">
+            Project 2
+        </button>
+
+
+        <div class="projectInfo" id="project1">
+            Project 1 info goes here
+        </div>
+        <div class="projectInfo" id="project2">
+            Project 2 info goes here
+        </div>
+    </section>
 
     <script src="JS files/programs.js"></script>
 </body>
