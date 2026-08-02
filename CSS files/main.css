@@ -31,6 +31,8 @@ a{
     color:rgb(0 0 0 / 0.00);
     display:flex;
     justify-content:space-between;
+    position:sticky;
+    top:0;
 }
 
 .headerMain h1{
@@ -40,7 +42,6 @@ a{
 }
 
 .headerMain .dropdownMenu {
-    /*float: left;*/
     overflow: hidden;
     height: 100%;
 }
@@ -100,6 +101,10 @@ a{
 }
 
 .filler{
-    /*Used to add invisible box on right of header*/
+    /*Used to add name box on right of header*/
     width:120px;
+    height:100%;
+    color:white;
+    text-align:center;
+    line-height:80px;
 }

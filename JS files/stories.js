@@ -1,6 +1,6 @@
-function drop() {
-    document.getElementById("myDropdown").classList.toggle("show");
-    console.log("Drop executed");
+function drop(dropdownID) {
+    document.getElementById(dropdownID).classList.toggle("show");
+    console.log("drop executed");
 }
 
 function openProject() {

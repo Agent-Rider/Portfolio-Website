@@ -2,17 +2,18 @@
 <html lang="en">
 <head>
     <title>
-        Landing Page
+        Scripting&Scripting | Home
     </title>
     <link rel="stylesheet" href="CSS files/reset.css" />
     <link rel="stylesheet" href="CSS files/main.css" />
+    <link rel="stylesheet" href="CSS files/index.css" />
 </head>
 
 
     <body>
         <header class="headerMain">
             <div class="dropdownMenu">
-                <button class="dropdownButton" onclick="drop()">
+                <button class="dropdownButton" onclick="drop('myDropdown')">
                     Menu 
                 </button>
                 <div id="myDropdown" class="dropdownContent">
@@ -25,26 +26,42 @@
                     <div class="linkButton">
                         <a href="stories.html">Writing</a>
                     </div>
+                    <div class="linkButton">
+                        <a href="info.html">Info and Contact</a>
+                    </div>
                 </div>
             </div>
 
             <h1>Home</h1>
 
-            <div class="filler"></div>
+            <div class="filler">Daniel Robb</div>
 
         </header>
 
-        <h1>
-            Daniel Robb
-        </h1>
-        <h2>
-            Scripting & Scripting
-        </h2>
+        <section class="pageIntro">
+            <h1>
+                Daniel Robb
+            </h1>
+            <h2>
+                Scripting & Scripting
+            </h2>
+        </section>
 
-        <div class="centralRow">
-            <a href="stories.html"><img src="https://cdn.imgchest.com/files/79d89c4e0034.webp" height="200"></a> 
-            <a href="programs.html"><img src="Images/nextPage.png" height="200" alt="Link to Page 2" class="centre"/></a>
-        </div>
+        <section>
+            <div class="centralRow">
+                <a href="programs.html">
+                    <div class="portal">
+                        Programming
+                    </div>
+                </a>
+
+                <a href="stories.html">
+                    <div class="portal">
+                        Writing
+                    </div>
+                </a>
+            </div>
+        </section>
 
     <script src="JS files/index.js"></script>
     </body>
