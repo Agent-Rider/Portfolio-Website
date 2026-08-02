@@ -31,6 +31,54 @@ a{
     justify-content:space-between;
 }
 
+.dropdownMenu {
+    float: left;
+    overflow: hidden;
+}
+
+.dropdownMenu .dropdownButton {
+    cursor: pointer;
+
+    width: 120px;
+    height: 80%;
+
+    margin-top:8px;
+
+    background-color: blueviolet;
+
+    text-align:center;
+    /*font-size:16px*/
+    /*color:white;*/
+
+    border:solid;
+    border-color:white;
+}
+
+.dropdownContent {
+    position: absolute;
+    background-color: orangered;
+    display: none;
+    z-index: 1;
+    min-width: 160px; 
+    border:solid;
+    border-color: black;
+}
+
+.dropdownContent .linkButton{
+    border:solid;
+    border-color: black;
+}
+
+.dropdownContent a {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+.show {
+    display: block;
+}
+
 .centralRow {
    /*border: 8px solid black;*/
     display: flex;
