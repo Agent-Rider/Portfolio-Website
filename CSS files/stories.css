@@ -1,0 +1,23 @@
+.projects{
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
+.projectBox{
+    width:60%;
+    height:auto;
+    background-color:blue;
+    margin:20px 0px;
+}
+
+.projectBox h1{
+    border:dashed;
+    border-color:cyan;
+}
+
+.projectBox p{
+    text-align:center;
+
+}

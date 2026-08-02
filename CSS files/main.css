@@ -12,6 +12,7 @@ h2 {
     font-weight: bold;
     font-size: 25px;
     text-align: center;
+    margin-bottom:40px;
 }
 }
 
@@ -94,12 +95,11 @@ a{
 }
 
 .centralRow {
-   /*border: 8px solid black;*/
     display: flex;
     justify-content: center;
 }
 
 .filler{
+    /*Used to add invisible box on right of header*/
     width:120px;
-
 }
