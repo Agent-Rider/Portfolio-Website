@@ -46,19 +46,27 @@
     </h2>
 
     <section class="projects">
-        <button class="projectBox" onclick="drop('project1')">
+        <button class="projectBox" onclick="overlayOn('project1')">
             Project 1
         </button>
-        <button class="projectBox" onclick="drop('project2')">
+        <button class="projectBox" onclick="overlayOn('project2')">
             Project 2
         </button>
 
-
-        <div class="projectInfo" id="project1">
-            Project 1 info goes here
+        <div class="overlay" id="project1" onclick="overlayOff('project1')">
+            <div class="wrapperProject">
+                <div class="projectInfo">
+                    <h2>Project 1 info goes here</h2>
+                </div>
+            </div>
         </div>
-        <div class="projectInfo" id="project2">
-            Project 2 info goes here
+
+        <div class="overlay" id="project2" onclick="overlayOff('project2')">
+            <div class="wrapperProject">
+                <div class="projectInfo">
+                    <h2>Project 2 info goes here</h2>
+                </div>
+            </div>
         </div>
     </section>
 

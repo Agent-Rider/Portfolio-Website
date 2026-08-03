@@ -16,15 +16,41 @@
     position:relative;
 }
 
-.projectInfo{
-    display:none;
-    width: 50%;
-    min-height:100px;
-    height:auto;
-    background-color:brown;
-    position:relative;
+.projectInfo {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    min-height: 100px;
+    height: auto;
+    background-color: brown;
+    position: sticky;
+    top: 80px;
+    margin: auto;
+}
+
+.projectInfo h2{
+    text-align:center;
 }
 
 .show{
     display:flex;
+}
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 80px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 1;
+    cursor: pointer;
+}
+
+.wrapperProject{
+    width:50%;
+    margin: auto;
 }

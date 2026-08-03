@@ -33,6 +33,7 @@ a{
     justify-content:space-between;
     position:sticky;
     top:0;
+    z-index:2;
 }
 
 .headerMain h1{
@@ -68,7 +69,7 @@ a{
     position: absolute;
     background-color: orangered;
     display: none;
-    z-index: 1;
+    z-index: 3;
     min-width: 160px;
     border:solid;
     border-color: black;
@@ -108,3 +109,4 @@ a{
     text-align:center;
     line-height:80px;
 }
+
