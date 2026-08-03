@@ -1,12 +1,19 @@
+var project;
+
 function drop(dropdownID) {
     document.getElementById(dropdownID).classList.toggle("show");
     console.log("drop executed");
 }
 
-function overlayOn(overlayID) {
-    document.getElementById(overlayID).style.display = "block";
+function overlayOn(projectID) {
+
+    project = document.getElementById(projectID);
+
+    document.getElementById("overlay").style.display = "block";
+    project.style.display = "block";
 }
 
-function overlayOff(overlayID) {
-    document.getElementById(overlayID).style.display = "none";
+function overlayOff() {
+    document.getElementById("overlay").style.display = "none";
+    project.style.display = "none";
 }

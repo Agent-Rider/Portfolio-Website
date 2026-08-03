@@ -23,13 +23,19 @@
     min-height: 100px;
     height: auto;
     background-color: brown;
-    position: sticky;
-    top: 80px;
-    margin: auto;
+
+    position:absolute;
+    top: 70px;
 }
 
 .projectInfo h2{
     text-align:center;
+}
+
+.projectInfo img{
+    height:200px;
+    width:min-content;
+    margin: 10px auto;
 }
 
 .show{
@@ -41,7 +47,7 @@
     display: none;
     width: 100%;
     height: 100%;
-    top: 80px;
+    top: 0px;
     left: 0;
     right: 0;
     bottom: 0;
@@ -50,7 +56,19 @@
     cursor: pointer;
 }
 
-.wrapperProject{
-    width:50%;
+.wrapperProject {
+    display: none;
+    width: 50%;
+    height:auto;
+    position:absolute;
+    top:80px;
+    z-index:2;
+}
+
+.timeScale{
+
+}
+
+.caption{
     margin: auto;
 }
