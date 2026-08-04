@@ -11,8 +11,27 @@ p{
     height:100px;
     margin:150px 10%;
     background-color:white;
+
+    display:flex;
+    justify-content:center;
+}
+
+.socialBox img{
+    margin:0 20px;
+    height:100px;
+    border:solid;
+    border-color:blue;
 }
 
 .cv{
 
+}
+
+.cvBox{
+    width:20%;
+    height: 100px;
+    margin:50px auto;
+    background-color:aqua;
+    text-align:center;
+    line-height:100px;
 }
