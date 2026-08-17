@@ -72,3 +72,23 @@
 .caption{
     margin: auto;
 }
+
+.links{
+    display:flex;
+    align-self:center;
+    align-content:center;
+}
+
+.links .linkIcon {
+    width: 100px;
+    height: 100px;
+    border: solid;
+    border-color: white;
+    background-color: black;
+}
+
+.links .linkIcon img{
+    height:100%;
+    width:100%;
+    margin:0px;
+}
