@@ -15,9 +15,15 @@
 .projectBox h1{
     border:dashed;
     border-color:cyan;
+    text-decoration:underline;
 }
 
 .projectBox p{
     text-align:center;
 
+}
+
+a{
+    color:black;
+    text-decoration:none;
 }
