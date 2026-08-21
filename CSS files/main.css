@@ -1,18 +1,20 @@
-body{
-    background-color: blueviolet;
+body {
+    background-color: rgb(79, 126, 204);
 }
 
-h1{
+h1 {
     font-weight: bolder;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
+    font-family: "Constantia", sans-serif;
 }
 
 h2 {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 35px;
     text-align: center;
-    margin-bottom:40px;
+    margin-bottom: 40px;
+    font-family: "Constantia", sans-serif;
 }
 }
 
@@ -61,22 +63,25 @@ a{
 
     color:black;
 
-    background-color: blueviolet;
+    background-color: rgb(79, 126, 204);
 
     text-align:center;
 
     border:solid;
     border-color:white;
+        
+    font-family: "Constantia", sans-serif;
 }
 
 .dropdownContent {
     position: absolute;
-    background-color: orangered;
+    background-color: purple;
     display: none;
     z-index: 4;
     min-width: 160px;
-    border:solid;
+    border: solid;
     border-color: black;
+    font-family: "Constantia", sans-serif;
 }
 
 .headerMain .dropdownMenu .dropdownContent .linkButton{
@@ -105,13 +110,17 @@ a{
     justify-content: center;
 }
 
-.filler{
+.filler {
     /*Used to add name box on right of header*/
-    width:120px;
-    height:100%;
-    color:white;
-    text-align:center;
-    line-height:80px;
-    text-decoration:none;
+    width: 120px;
+    height: 100%;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    text-decoration: none;
+    font-family: "Constantia", sans-serif;
 }
 
+.portal {
+    font-family: "Comic Sans MS", sans-serif;
+}
