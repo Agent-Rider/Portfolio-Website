@@ -4,9 +4,19 @@
     margin:50px;
     text-align:center;
     line-height:200px;
-    background-color:white;
+
+    background-size:cover;
+    
     border:solid;
     border-color:black;
-    color:black;
+    font-size:30px;
 
+}
+
+.progText{
+    color: white;
+}
+
+.scriptText{
+    color:black;
 }
