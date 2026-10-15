@@ -1,5 +1,4 @@
 p{
-    text-align:center;
 }
 
 .introduction{
@@ -32,6 +31,5 @@ p{
     height: 100px;
     margin:50px auto;
     background-color:aqua;
-    text-align:center;
     line-height:100px;
 }
