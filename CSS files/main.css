@@ -1,5 +1,24 @@
+
+/*site defaults*/
+html {
+    font-size: 18pt;
+    line-height: 1.5;
+}
+/*larger screen defaults*/
+@media (min-width: 2000px) {
+    html {
+        font-size: 25pt;
+    }
+}
+/*smaller screen defaults*/
+@media (max-width: 1000px) {
+    html {
+        font-size: 10pt;
+    }
+}
+
 body {
-    background-color: rgb(79, 126, 204);
+    background-color: rgb(79, 126, 204, 0.66);
 }
 
 h1 {
@@ -15,7 +34,6 @@ h2 {
     text-align: center;
     margin-bottom: 40px;
     font-family: "Constantia", sans-serif;
-}
 }
 
 p{
@@ -108,6 +126,9 @@ a {
 .centralRow {
     display: flex;
     justify-content: center;
+    background-color: rgb(150, 150, 150);
+    width: 1000px;
+    margin: auto;
 }
 
 .filler {
@@ -116,7 +137,7 @@ a {
     height: 100%;
     color: white;
     text-align: center;
-    line-height: 80px;
+    line-height: 1.5;
     text-decoration: none;
     font-family: "Constantia", sans-serif;
 }

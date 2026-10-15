@@ -1,22 +1,25 @@
 .portal{
-    width:200px;
-    height:200px;
-    margin:50px;
+    width:10em;
+    height:10em;
+    margin:100px;
     text-align:center;
-    line-height:200px;
+    line-height:10em;
 
     background-size:cover;
     
     border:solid;
-    border-color:black;
+    border-width: thick;
+    border-color:white;
     font-size:30px;
 
 }
 
-.progText{
+.progText {
     color: white;
 }
 
 .scriptText{
     color:black;
+    -webkit-text-stroke: 1px white;
+    font-size: 4ex;
 }
