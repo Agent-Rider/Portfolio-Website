@@ -50,24 +50,36 @@
     </h2>
 
     <section class="projects">
-        <button class="projectBox" onclick="overlayOn('project2')">
+        <button class="projectBox" onclick="overlayOn('project2')"> <!--Dragon's Hoard-->
             Dragon's Hoard
         </button>
-        <button class="projectBox" onclick="overlayOn('project1')">
+        <button class="projectBox" onclick="overlayOn('project1')"> <!--The Last in Line-->
             The Last in Line
         </button>
 
         <div class="overlay" id="overlay" onclick="overlayOff()">
         </div>
 
-        <div class="wrapperProject" id="project2">
-            <div class="projectInfo">
-                <h2>Project 2 info goes here</h2>
+        <div class="wrapperProject" id="project2"> <!--Dragon's Hoard project-->
+            <div class="projectInfo" style="background-image: url(Images/Projects/DragonsHoard/background.png);">
+                <h2>Dragon's Hoard</h2>
+                <div class="links">
+                    <a href="https://github.com/Agent-Rider/DragonsHoard" class="linkIcon">
+                        <img src="Images/Icons/GitHub/GitHub_Invertocat_White.png">
+                    </a>
+                    <a href="https://daniel2-robb.itch.io/dragons-hoard" class="linkIcon"> <img src="Images/Icons/itch/itchio-logo-textless-white.png"></a>
+                </div>
+
+                <h3>Engines/Languages: Unity, C#</h3>
+                <!--<img src="Images/Projects/DragonsHoard/titleScreen.png" alt="Title screen of Dragon's Hoard" />-->
+                <!--<p class="caption">Title Screen for "Dragon's Hoard"</p>-->
+                <p class="timeScale">Main development period: September 2026</p>
+                <span>Dragon's Hoard is a game developed by myself and two friends during a week-long game jam in mid-September 2026. The theme given was "Grow Something New", which we interpreted as a dragon building up a hoard by defeating villagers attempting to slay it. The main goal I had during the development period was to structure the code such that expanding on the game's content was as simple as possible. This was achieved by limiting the amount of hard-coded values through any player character scripts. This allows for more abilities to be added for the player, since the necessary scripts are generic enough.</span>
             </div>
         </div>
 
-        <div class="wrapperProject" id="project1">
-            <div class="projectInfo" style="background-image: url(Images/Projects/TheLastInLine/background.png);">
+        <div class="wrapperProject" id="project1"> <!--The Last in Line project-->
+            <div class="projectInfo" style="background-image: url(Images/Projects/TheLastInLine/background.png); color:black";>
                 <h2>The Last in Line</h2>
                 <div class="links">
                     <a href="https://github.com/Agent-Rider/TheLastInLine" class="linkIcon">
@@ -82,7 +94,8 @@
                 <span>
                     The Last in Line is a simple recreation of the popular game
                     <a href="https://store.steampowered.com/app/239030/Papers_Please/">Papers, Please</a>
-                    <span> in which the player declares the morality of the character that appears before them based on whether they match their 'passport'. This project had me learn mouse-based inputs within C++, use vectors as containers for objects, and better my use of encapsulation between elements of a program.</span>
+                    <span> in which the player declares the morality of the character that appears before them based on whether they match their 'passport'. This <span style="color:white"> project had me learn mouse-based inputs within C++, use vectors as containers for objects, and better my use of encapsulation between elements of a program.</span>
+                    </span>
                 </span>
             </div>
         </div>

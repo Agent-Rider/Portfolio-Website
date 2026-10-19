@@ -38,7 +38,6 @@ span{
 
     /*font*/
     color: white;
-    -webkit-text-stroke: 1px black;
 }
 
 .projectInfo a {
@@ -100,12 +99,13 @@ span{
     align-content: center;
     border: solid;
     border-color: white;
+    background-color: black;
 }
 
 .links .linkIcon {
     width: 100px;
     height: 100px;
-    background-color: black;
+    margin:0px 10px;
 }
 
 .links .linkIcon img{
