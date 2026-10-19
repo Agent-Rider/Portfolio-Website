@@ -29,17 +29,22 @@ span{
     width: 100%;
     min-height: 100px;
     height: auto;
-    background-color: brown;
+    background-size: cover;
 
     row-gap:10px;
 
     position:absolute;
     top: 70px;
+
+    /*font*/
+    color: white;
+    -webkit-text-stroke: 1px black;
 }
 
 .projectInfo a {
     color: blue;
     text-decoration: underline;
+    -webkit-text-stroke: initial;
 }
 
 .projectInfo h2{
